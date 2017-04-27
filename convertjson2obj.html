@@ -19,6 +19,10 @@ var obj = eval ("(" + txt + ")");//更好的方案
 
 document.getElementById("fname").innerHTML=obj.employees[0].firstName 
 document.getElementById("lname").innerHTML=obj.employees[0].lastName 
+  
+var data = [{"id":"1","name":"a"},{"id":"2","name":"b"}];   
+alert(eval(data).length); 
+  
 </script>
 
 </body>
