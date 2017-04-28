@@ -33,10 +33,10 @@
              var json = eval(tt); //数组         
              $.each(json, function (index, item) {  
                  //循环获取数据    
-                 var name = json[index].Name;  
+                 var name     = json[index].Name;  
                  var idnumber = json[index].IdNumber;  
-                 var sex = json[index].Email;  
-                 $("#list").html($("#list").html() + "<br>" + name + " - " + idnumber + " - " + sex + "<br/>");  
+                 var email    = json[index].Email;  
+                 $("#list").html($("#list").html() + "<br>" + name + " - " + idnumber + " - " + email + "<br/>");  
              });  
          }  
      });  
