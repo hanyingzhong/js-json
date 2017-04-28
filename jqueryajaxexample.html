@@ -28,7 +28,8 @@
              //var json = { "id": "10086", "uname": "zhangsan", "email": "zhangsan@qq.com" };  
              //json = eval(json);  
              //alert("===json:id=" + json.id + ",uname=" + json.uname + ",email=" + json.email);  
-
+             //jsondata.ashx内的数据格式必须是数组：[{"":"","":""}，{"":"","":""}，{"":"","":""}]
+             
              var json = eval(tt); //数组         
              $.each(json, function (index, item) {  
                  //循环获取数据    
