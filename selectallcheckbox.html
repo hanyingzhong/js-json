@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-
+<html>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +9,14 @@
 		<meta name="keywords" content="表格">
 		<meta name="description" content="这真的是一个表格" />
 		<meta name="HandheldFriendly" content="True" />
-		<link rel="shortcut icon" href="img/favicon.ico">
+		<!--<link rel="shortcut icon" href="img/favicon.ico">-->
 		<!-- Bootstrap3.3.5 CSS -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-
+		<!-- jQuery1.11.3 (necessary for Bo otstrap's JavaScript plugins) -->
+		<script src="js/jQuery.js" type="text/javascript"></script> 
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js "></script>
+		
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
     		<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -90,11 +93,8 @@
 				</div><!-- end of panel-footer -->
 			</div><!-- end of panel -->
 		</div>
-		<!-- jQuery1.11.3 (necessary for Bo otstrap's JavaScript plugins) -->
-		<script src="js/jquery-1.11.3.min.js "></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js "></script>
-		<script>
+
+		<script type="text/javascript">
 		$(function(){
 			function initTableCheckbox() {
 				var $thr = $('table thead tr');
